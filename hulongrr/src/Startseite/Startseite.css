@@ -3,6 +3,7 @@
     display: flex;
     margin: auto;
     align-items: center;
+    justify-content: center;
     gap: 3%;
     flex-wrap: wrap;
 }
@@ -12,10 +13,36 @@
 }
 
 /*LEFT DIV*/
-
 .startseiteContainer > div:first-of-type {
     font-size: 30px;
     width: 50%;
+}
+
+.startseiteContainer > div > h2 > span {
+    color: #F5CF9C;
+}
+
+.startseiteContainer > div > p {
+    padding: 5% 0%;
+}
+
+.mehrErfahren {
+    display: inline-block;
+    font-size: auto;
+    padding: 0% 2%;
+    border-left: 1px solid white;
+    min-width: 200px;
+    background-color: transparent;
+    color: #F5CF9C;
+    cursor: pointer;
+    text-align: center;
+    transition: 500ms;
+}
+
+.mehrErfahren:hover {
+    border-left: none;
+    border-right: 1px solid white;
+    color: white;
 }
 
 /*RIGHT DIV*/
@@ -42,10 +69,11 @@
     height: 100%;
     border-radius: 50%;
     background-image: linear-gradient(
+      black,
+      #F5CF9C,
       white,
       black,
-      white,
-      black,
+      #F5CF9C,
       white
     );
   }
