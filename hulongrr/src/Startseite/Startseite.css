@@ -1,0 +1,61 @@
+.startseiteContainer {
+    padding: 5% 0%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.startseiteContainer > div {
+    padding: 5%;
+}
+
+/*LEFT DIV*/
+
+.startseiteContainer > div:first-of-type {
+    font-size: 30px;
+    width: 50%;
+}
+
+/*RIGHT DIV*/
+.hulongRRDiv {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.hulongRRDiv > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 500ms;
+    will-change: transform;
+}
+
+.gradient {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(
+      white,
+      black,
+      white,
+      black,
+      white
+    );
+  }
+
+.blurry {
+    position: absolute;
+    filter: blur(40px);
+    transform: scale(1.1);
+  }
+
+.hulongRRDiv > img:hover{
+    transform: scale(1.1);
+}
