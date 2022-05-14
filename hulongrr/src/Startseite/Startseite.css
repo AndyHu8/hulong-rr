@@ -17,6 +17,10 @@
 .startseiteContainer > div:first-of-type {
     font-size: 30px;
     width: 50%;
+    transform: translateX(-100%);
+    animation: slideInFromLeft 1200ms ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 .startseiteContainer > div > h2 > span {
@@ -92,6 +96,13 @@
 }
 
 /*RIGHT DIV*/
+.startseiteContainer > div:nth-child(2) {
+    transform: translateX(100%);
+    animation: slideInFromRight 1200ms ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
 .hulongRRDiv {
     width: 400px;
     height: 400px;
@@ -134,3 +145,22 @@
 .hulongRRDiv > img:hover{
     transform: rotate(20deg);
 }
+
+/*KEYFRAMES*/
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }

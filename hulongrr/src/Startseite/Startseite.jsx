@@ -15,6 +15,7 @@ export default function Startseite() {
                     <li onClick={() => window.open("https://twitter.com/Hulong_RR")}><i class="fa fa-brands fa-twitter"></i></li>
                 </ul>
                 <div className="mehrErfahren">Mehr erfahren <i className="fa fa-solid fa-arrow-right"></i></div>
+                
             </div>
             <div>
                 <div className="hulongRRDiv">
