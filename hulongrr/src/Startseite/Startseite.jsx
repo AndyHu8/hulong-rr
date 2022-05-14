@@ -19,7 +19,7 @@ export default function Startseite() {
             <div>
                 <div className="hulongRRDiv">
                     <div className="gradient blurry"/>
-                    <img src={HulongRR} alt="Hulong RR Profil"/>
+                    <img src={HulongRR} alt="Hulong RR Profil" onClick={() => window.location.reload()}/>
                 </div>
             </div>
         </div>
