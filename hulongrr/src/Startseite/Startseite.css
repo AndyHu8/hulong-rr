@@ -1,4 +1,9 @@
+.startseiteSection {
+    position: relative;
+}
+
 .startseiteContainer {
+    position: relative;
     background-image: linear-gradient(to bottom right, black, #121212);
     padding: 5% 0%;
     display: flex;
@@ -11,6 +16,7 @@
 
 .startseiteContainer > div {
     padding: 5%;
+    z-index: 2;
 }
 
 /*LEFT DIV*/
@@ -164,3 +170,14 @@
       transform: translateX(0%);
     }
   }
+
+/*Chinese Font*/
+.chineseFont {
+    position: absolute;
+    color: black;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    font-size: 600px;
+    opacity: 0.5;
+}

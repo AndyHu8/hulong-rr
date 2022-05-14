@@ -3,7 +3,7 @@ import "./Navigation.css"
 export default function Navigation() {
     return (
         <div className="navigationContainer">
-            <div>Hulong RR</div>
+            <div>胡龙日日</div>
             <ul>
                 <li>Startseite</li>
                 <li>Über mich</li>

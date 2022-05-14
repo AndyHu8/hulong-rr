@@ -3,7 +3,8 @@ import HulongRR from "../Bilder/hulongrr.jpg"
 
 export default function Startseite() {
     return (
-        <div className="startseiteContainer">
+        <div className="startseiteSection">
+            <div className="startseiteContainer">
             <div>
                 <p className="hiIchBin">Hi, ich bin</p>
                 <h2>Hulong RR - <span onClick={() => window.open("https://devskiller.com/de/junior-entwickler/#:~:text=Kandidaten%20f%C3%BCr%20eine%20Junior%2DEntwickler,der%20Erstellung%20von%20Software%20haben")}>Junior Developer</span></h2>
@@ -23,6 +24,10 @@ export default function Startseite() {
                     <img src={HulongRR} alt="Hulong RR Profil" onClick={() => window.location.reload()}/>
                 </div>
             </div>
+        </div>
+
+        {/*Chinese Font*/}
+        <div className="chineseFont">主页</div>
         </div>
     )
 }
