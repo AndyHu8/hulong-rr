@@ -121,6 +121,7 @@
     width: 400px;
     height: 400px;
     position: relative;
+    margin: auto;
 }
 
 .hulongRRDiv > img {
@@ -191,6 +192,9 @@
 /*MEDIA QURIES*/
 @media screen and (max-width: 1500px) {
     .startseiteContainer > div:first-of-type {
+        width: 80%;
+    }
+    .startseiteContainer > div:nth-child(2) {
         width: 80%;
     }
 }
