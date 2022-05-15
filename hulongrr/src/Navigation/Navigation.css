@@ -19,6 +19,7 @@
     padding-left: 20px;
     cursor: pointer;
     transition: 500ms;
+    font-family: 'Zhi Mang Xing', cursive;
 }
 
 .navigationContainer > div:first-of-type:hover {
