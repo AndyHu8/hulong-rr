@@ -11,11 +11,11 @@
     flex-wrap: wrap;
     animation: slideInFromBottom 1200ms ease-in-out;
     animation-fill-mode: forwards;
+    width: 100%;
 }
 
 .startseiteContainer > div {
     padding: 5%;
-    z-index: 2;
 }
 
 /*LEFT DIV*/
@@ -187,3 +187,37 @@
       transform: translateY(0%);
     }
   }
+
+/*MEDIA QURIES*/
+@media screen and (max-width: 1500px) {
+    .startseiteContainer > div:first-of-type {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .hulongRRDiv {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hulongRRDiv {
+        width: 250px;
+        height: 250px;
+    }
+    .hulongRRDiv > img:hover{
+        transform: rotate(0deg);
+    }
+    .startseiteContainer > div:first-of-type {
+        font-size: 20px;
+    }
+    .chinStartseite {
+        font-size: 30px;
+    }
+    .mehrErfahren {
+        padding: 0;
+    }
+    
+}
