@@ -19,7 +19,7 @@
     padding-left: 20px;
     cursor: pointer;
     transition: 500ms;
-    font-family: 'Zhi Mang Xing', cursive;
+    font-family: 'Zhi Mang Xing';
 }
 
 .navigationContainer > div:first-of-type:hover {
@@ -36,13 +36,38 @@
     margin: 1%;
 }
 
-.navigationContainer > ul > li {
+.navigationContainer > ul > div {
     cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.navigationContainer > ul > div:hover .secondLi {
+    transform: translateY(0%);
+}
+
+.navigationContainer > ul > div:hover .firstLi {
+    transform: translateY(-100%);
     transition: 500ms;
 }
 
-.navigationContainer > ul > li:hover {
-    color: #F5CF9C;
+.firstLi {
+    display: block;
+    transform: translateY(0%);
+    transition: transform 500ms;
+}
+
+.secondLi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 500ms;
+    font-family: 'Zhi Mang Xing';
+    font-size: 30px;
+    text-align: center;
 }
 
 /*KEYFRAMES*/

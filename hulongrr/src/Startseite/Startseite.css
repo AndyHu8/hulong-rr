@@ -34,15 +34,12 @@
 
 .startseiteContainer > div > h2 > span {
     color: #F5CF9C;
-    border-right: 2px solid #F5CF9C;
-    padding-right: 20px;
     transition: 500ms;
     cursor: pointer;
 }
 
 .startseiteContainer > div > h2 > span:hover {
     color: white;
-    border-right: 2px solid white;
 }
 
 .startseiteContainer > div > h2 {
