@@ -22,12 +22,12 @@ export default function Navigation() {
             <div>胡龙日日</div>
             <ul>
                 <div>
-                    <li className="firstLi">Startseite</li>
-                    <li className="secondLi">主页</li>
+                    <a href="#StartseiteSection"><li className="firstLi">Startseite</li></a>
+                    <a href="#StartseiteSection"><li className="secondLi">主页</li></a>
                 </div>
                 <div>
-                    <li className="firstLi">Über mich</li>
-                    <li className="secondLi">关于我</li>
+                    <a href="#AboutSection"><li className="firstLi">Über mich</li></a>
+                    <a href="#AboutSection"><li className="secondLi">关于我</li></a>
                 </div>
                 <div>
                     <li className="firstLi">Skills</li>
@@ -48,10 +48,10 @@ export default function Navigation() {
         <div className="mobileNav">
             <ul>
                 <div>
-                    <li className="firstLi">Startseite | 主页</li>
+                    <a href="#StartseiteSection"><li className="firstLi">Startseite | 主页</li></a>
                 </div>
                 <div>
-                    <li className="firstLi">Über mich | 关于我</li>
+                    <a href="#AboutSection"><li className="firstLi">Über mich | 关于我</li></a>
                 </div>
                 <div>
                     <li className="firstLi">Skills | 技能</li>

@@ -1,0 +1,83 @@
+.einHobbyContainer {
+    background-color: #202020;
+    min-width: 300px;
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    text-align: center;
+    padding: 2% 0;
+    transition: 500ms;
+}
+
+.einHobbyContainer:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.logo {
+    text-align: center;
+    padding: 5% 0;
+    color: #F5CF9C;
+}
+
+.logo > i{
+    font-size: 80px;
+}
+
+.einHobbyContainer > h2 {
+    font-size: 30px;
+}
+
+.einHobbyContainer > p {
+    font-size: 20px;
+    padding: 5% 10%;
+}
+
+.mehrInfos {
+    display: inline-block;
+    font-size: 20px;
+    border-left: 2px solid #F5CF9C;
+    color: #F5CF9C;
+    padding: 0 20px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.mehrInfos > i {
+    transition: 500ms;
+}
+
+.mehrInfos:hover {
+    color: white;
+    border-color: white;
+}
+
+.mehrInfos:hover > i {
+    transform: translateX(30%);
+}
+
+.einHobbyContainerMittel {
+    background-color: #202020;
+    min-width: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    text-align: center;
+    padding: 2% 0;
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.einHobbyContainerMittel:hover {
+    transform: scale(1.2);
+}
+
+.einHobbyContainerMittel > h2 {
+    font-size: 30px;
+}
+
+.einHobbyContainerMittel > p {
+    font-size: 20px;
+    padding: 5% 10%;
+}
