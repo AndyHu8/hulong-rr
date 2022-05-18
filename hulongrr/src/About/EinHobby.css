@@ -6,7 +6,7 @@
     border-radius: 10px;
     box-shadow: 0 0 10px white;
     text-align: center;
-    padding: 2% 0;
+    padding: 30px 0;
     transition: 500ms;
 }
 
@@ -81,4 +81,41 @@
 .einHobbyContainerMittel > p {
     font-size: 20px;
     padding: 5% 10%;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1800px) {
+    .einHobbyContainer {
+        width: 400px;
+    }
+    .einHobbyContainerMittel {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .einHobbyContainer {
+        width: 500px;
+    }
+    .einHobbyContainerMittel {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .einHobbyContainer {
+        padding: 50px 0;
+    }
+    .einHobbyContainerMittel {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .einHobbyContainer {
+        width: 400px;
+    }
+    .einHobbyContainerMittel {
+        width: 400px;
+    }
 }
