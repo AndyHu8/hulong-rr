@@ -22,7 +22,7 @@
     color: #F5CF9C;
 }
 
-.logo > i{
+.logo > i {
     font-size: 80px;
 }
 
@@ -112,6 +112,37 @@
     }
     .einHobbyContainerMittel {
         padding: 50px 0;
+        transform: scale(1.0);
+    }
+    .einHobbyContainerMittel:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logo > i {
+        font-size: 50px;
+    }
+    .einHobbyContainer > h2 {
+        font-size: 20px;
+    }
+    .einHobbyContainerMittel > h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .einHobbyContainer {
+        padding: 20px 0;
+    }
+    .einHobbyContainer > h2 {
+        margin: 0;
+    }
+    .einHobbyContainerMittel {
+        padding: 20px 0;
+    }
+    .einHobbyContainerMittel > h2 {
+        margin: 0;
     }
 }
 
@@ -121,5 +152,17 @@
     }
     .einHobbyContainerMittel {
         width: 400px;
+    }
+    .logo > i {
+        font-size: 40px;
+    }
+    .einHobbyContainer > p {
+        font-size: 16px;
+    }
+    .mehrInfos {
+        font-size: 16px;
+    }
+    .einHobbyContainerMittel > p {
+        font-size: 16px;
     }
 }

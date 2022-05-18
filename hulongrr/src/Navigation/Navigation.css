@@ -149,10 +149,13 @@
     .navigationContainer > ul {
         display: none;
     }
-}
-
-@media screen and (max-width: 1200px) {
     .navigationContainer > div:first-of-type {
         padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mobileNav > ul {
+        font-size: 16px;
     }
 }

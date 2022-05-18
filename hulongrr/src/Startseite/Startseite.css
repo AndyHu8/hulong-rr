@@ -63,7 +63,7 @@
 
 .startseiteContainer > div > p:not(:first-of-type) {
     padding: 5% 0% 0% 0%;
-    text-shadow: 2px 2px black;
+    text-shadow: 0 0 10px black;
 }
 
 .chinStartseite {
@@ -238,6 +238,24 @@
     }
     .mehrErfahren {
         padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .startseiteContainer > div:first-of-type {
+        font-size: 16px;
+    }
+    .chinStartseite {
+        font-size: 20px;
+    }
+    .mehrErfahren {
+        padding: 0 20px;
+        text-align: left;
+    }
+    .hulongRRDiv {
+        width: 200px;
+        height: 200px;
     }
     
 }
