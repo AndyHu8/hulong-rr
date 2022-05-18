@@ -34,6 +34,7 @@
     transition: 500ms;
     display: inline-block;
     transform: rotate(180deg);
+    will-change: transform;
 }
 
 .downIconContainer > div:hover {
