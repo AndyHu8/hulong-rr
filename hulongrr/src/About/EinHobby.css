@@ -46,6 +46,7 @@
 
 .mehrInfos > i {
     transition: 500ms;
+    will-change: transform;
 }
 
 .mehrInfos:hover {
@@ -54,7 +55,7 @@
 }
 
 .mehrInfos:hover > i {
-    transform: translateX(30%);
+    transform: translateX(30%) rotate(180deg);
 }
 
 .einHobbyContainerMittel {
