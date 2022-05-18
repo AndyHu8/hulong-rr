@@ -13,7 +13,7 @@
 
 .einHobbyContainer:hover {
     transform: scale(1.1);
-    z-index: 1;
+    z-index: 2;
 }
 
 .logo {
@@ -27,6 +27,7 @@
 }
 
 .einHobbyContainer > h2 {
+    padding: 0% 10%;
     font-size: 30px;
 }
 
@@ -70,6 +71,7 @@
     transition: 500ms;
     transform: scale(1.1);
     will-change: transform;
+    z-index: 1;
 }
 
 .einHobbyContainerMittel:hover {
