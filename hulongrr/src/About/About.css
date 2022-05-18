@@ -69,3 +69,9 @@
         gap: 30px 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .aboutText {
+        text-align: revert;
+    }
+}
