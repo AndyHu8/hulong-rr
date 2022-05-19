@@ -18,17 +18,12 @@
 .navigationContainer > div:first-of-type {
     color: #F5CF9C;
     font-size: 30px;
-    border-left: 2px solid #F5CF9C;
-    padding-left: 20px;
     cursor: pointer;
     transition: 500ms;
     font-family: 'Zhi Mang Xing';
 }
 
 .navigationContainer > div:first-of-type:hover {
-    border-left: none;
-    border-right: 2px solid white;
-    padding-right: 20px;
     color: white;
 }
 
@@ -148,9 +143,6 @@
     }
     .navigationContainer > ul {
         display: none;
-    }
-    .navigationContainer > div:first-of-type {
-        padding-left: 10px;
     }
 }
 
