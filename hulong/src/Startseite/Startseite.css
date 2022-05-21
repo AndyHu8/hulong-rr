@@ -33,13 +33,17 @@
     text-shadow: 2px 2px black;
 }
 
-.startseiteContainer > div > h2 > span {
+.chinHulongText {
+    font-family: 'Zhi Mang Xing';
+}
+
+.startseiteContainer > div > h2 > .JrDev {
     color: #F5CF9C;
     transition: 500ms;
     cursor: pointer;
 }
 
-.startseiteContainer > div > h2 > span:hover {
+.startseiteContainer > div > h2 > .JrDev:hover {
     color: white;
 }
 
