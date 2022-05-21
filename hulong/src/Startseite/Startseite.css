@@ -29,20 +29,6 @@
     animation-fill-mode: forwards;
 }
 
-#FirstR {
-    background-color: white;
-    text-shadow: none;
-    color: black;
-    cursor: auto;
-    border-radius: 5px;
-}
-
-#SecondR {
-    text-shadow: none;
-    color: white;
-    cursor: auto;
-}
-
 .startseiteContainer > div > h2 {
     text-shadow: 2px 2px black;
 }

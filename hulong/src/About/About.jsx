@@ -6,7 +6,7 @@ export default function About() {
         <div className="aboutContainer" id="AboutSection">
             <div className="chinStartseite">关于我</div>
             <h2>WHO IS <span>HU</span> ?</h2>
-            <p className="aboutText">Mein Name lautet Andy "Hulong RR" Hu.<br/>
+            <p className="aboutText">Mein Name lautet Andy "Hulong" Hu.<br/>
             Ich bin zurzeit, wo ich diese Website entwickelt habe, 23 Jahre alt. Bin in Berlin aufgewachsen, aber komme ursprünglich aus China, "das Land der Mitte". Das Coden tue ich mittlerweile schon mehrere Jahre und bin immernoch mit Leidenschaft bei der Sache.
             Neben dem Coden, spiele ich auch liebend gern Online Games, höre gefühlt 24/7 Deutschrap und betätige mich sportlich. Das darf bei so einem Job natürlich nicht fehlen!
             </p>
