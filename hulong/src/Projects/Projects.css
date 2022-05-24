@@ -1,0 +1,47 @@
+.projectsContainer {
+    padding: 8%;
+    background-color: #0A0A0A;
+}
+
+.projectsContainer > .projectsContent > h2 {
+    font-size: 30px;
+}
+
+.projectsContainer > .projectsContent > p {
+    font-size: 20px;
+}
+
+.aboutTextProjects {
+    text-align:justify;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1800px) {
+    .projectsContainer {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .projectsContainer {
+        padding: 8%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .projectsContainer > .projectsContent > h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projectsContainer > .projectsContent > h2 {
+        font-size: 16px;
+    }
+    .projectsContainer > .projectsContent > p {
+        font-size: 16px;
+    }
+    .aboutTextProjects {
+        text-align: revert;
+    }
+}
