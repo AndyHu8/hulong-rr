@@ -1,0 +1,80 @@
+.kontaktContainer {
+    padding: 8%;
+    background-color: #0A0A0A;
+}
+
+.kontaktContainer > h2 {
+    font-size: 30px;
+}
+
+.kontaktContainer > p {
+    font-size: 20px;
+}
+
+.aboutTextProjects {
+    text-align:justify;
+}
+
+.kontaktContainer > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 50px;
+    color: #F5CF9C;
+    padding-left: 0;
+}
+
+.kontaktContainer > ul > li {
+    font-size: 50px;
+    padding: 0 10%;
+}
+
+.kontaktContainer > ul > li:not(:first-of-type) {
+    border-left: 1px solid #F5CF9C;
+}
+
+.kontaktContainer > ul > li > i {
+    padding: 30px;
+    border-radius: 50%;
+    transition: 500ms;
+    border: 1px solid black;
+    will-change: transform;
+    cursor: pointer;
+}
+
+.kontaktContainer > ul > li > i:hover {
+    border: 1px solid white;
+    color: white;
+    transform: rotate(20deg) scale(1.1);
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1800px) {
+    .kontaktContainer {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .kontaktContainer {
+        padding: 8%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .kontaktContainer > h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .kontaktContainer > h2 {
+        font-size: 16px;
+    }
+    .kontaktContainer > p {
+        font-size: 16px;
+    }
+    .aboutTextProjects {
+        text-align: revert;
+    }
+}

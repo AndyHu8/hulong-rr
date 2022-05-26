@@ -7,7 +7,7 @@ export default function Startseite() {
             <div>
                 <div className="chinStartseite">主页</div>
                 <p className="hiIchBin">Hi, ich bin</p>
-                <h2>Hulong <span className="chinHulongText">胡龙</span> - <span className="JrDev" onClick={() => window.open("https://devskiller.com/de/junior-entwickler/#:~:text=Kandidaten%20f%C3%BCr%20eine%20Junior%2DEntwickler,der%20Erstellung%20von%20Software%20haben")}>Junior Developer</span></h2>
+                <h2>Andy <span className="chinHulongText">安迪</span> - <span className="JrDev" onClick={() => window.open("https://devskiller.com/de/junior-entwickler/#:~:text=Kandidaten%20f%C3%BCr%20eine%20Junior%2DEntwickler,der%20Erstellung%20von%20Software%20haben")}>Junior Developer</span></h2>
                 <p>Seit 2018 gehe ich diese Tätigkeit privat, sowie 2019 beruflich an: Coden. Jeder Anfang ist schwer, aber es lohnt sich dran zu bleiben und die Erfahrungen mitzunehmen. Seit dieser Zeit, bin ich von Tag eins mit Leidenschaft dabei und werde nie ausgelernt haben. #CodingIsFuture</p>
                 <ul>
                     <li onClick={() => window.open("https://www.instagram.com/_hulong")}><i class="fa fa-brands fa-instagram"></i></li>
