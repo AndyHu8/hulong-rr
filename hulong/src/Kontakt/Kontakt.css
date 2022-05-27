@@ -65,6 +65,24 @@
     .kontaktContainer > h2 {
         font-size: 20px;
     }
+    .kontaktContainer > ul > li {
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .kontaktContainer > ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style: none;
+        margin-top: 50px;
+        color: #F5CF9C;
+        padding-left: 0;
+    }
+    .kontaktContainer > ul > li:not(:first-of-type) {
+        border-left: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -76,5 +94,8 @@
     }
     .aboutTextProjects {
         text-align: revert;
+    }
+    .kontaktContainer > ul > li {
+        font-size: 30px;
     }
 }

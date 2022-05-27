@@ -38,8 +38,8 @@ export default function Navigation() {
                     <li className="secondLi">项目</li>
                 </div>
                 <div>
-                    <li className="firstLi">Kontakt</li>
-                    <li className="secondLi">联系</li>
+                    <a href="#KontaktSection"><li className="firstLi">Kontakt</li></a>
+                    <a href="#KontaktSection"><li className="secondLi">联系</li></a>
                 </div>
             </ul>
             <div className="burger" onClick={showNav}><i className="fa fa-solid fa-bars"></i></div>
@@ -60,7 +60,7 @@ export default function Navigation() {
                     <li className="firstLi">Projekte | 项目</li>
                 </div>
                 <div>
-                    <li className="firstLi">Kontakt | 联系</li>
+                    <a href="#KontaktSection"><li className="firstLi">Kontakt | 联系</li></a>
                 </div>
             </ul>
         </div>
