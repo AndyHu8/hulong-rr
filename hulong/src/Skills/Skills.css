@@ -1,0 +1,47 @@
+.skillsContainer {
+    padding: 8%;
+    background-color: black;
+}
+
+.skillsContainer > .skillsContent > h2 {
+    font-size: 30px;
+}
+
+.skillsContainer > .skillsContent > p {
+    font-size: 20px;
+}
+
+.aboutTextProjects {
+    text-align:justify;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1800px) {
+    .skillsContainer {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .skillsContainer {
+        padding: 8%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .skillsContainer > .skillsContent > h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skillsContainer > .skillsContent > h2 {
+        font-size: 16px;
+    }
+    .skillsContainer > .skillsContent > p {
+        font-size: 16px;
+    }
+    .aboutTextProjects {
+        text-align: revert;
+    }
+}

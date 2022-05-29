@@ -19,7 +19,7 @@ export default function Navigation() {
     return (
         <>
         <div className="navigationContainer">
-            <div onClick={() => window.location.reload()}>安迪</div>
+            <div onClick={() => window.location.reload()}>安迪小胡</div>
             <ul>
                 <div>
                     <a href="#StartseiteSection"><li className="firstLi">Startseite</li></a>
@@ -30,12 +30,12 @@ export default function Navigation() {
                     <a href="#AboutSection"><li className="secondLi">关于我</li></a>
                 </div>
                 <div>
-                    <li className="firstLi">Skills</li>
-                    <li className="secondLi">技能</li>
+                    <a href="#SkillsSection"><li className="firstLi">Skills</li></a>
+                    <a href="#SkillsSection"><li className="secondLi">技能</li></a>
                 </div>
                 <div>
-                    <li className="firstLi">Projekte</li>
-                    <li className="secondLi">项目</li>
+                    <a href="#ProjectsSection"><li className="firstLi">Projekte</li></a>
+                    <a href="#ProjectsSection"><li className="secondLi">项目</li></a>
                 </div>
                 <div>
                     <a href="#KontaktSection"><li className="firstLi">Kontakt</li></a>
@@ -54,10 +54,10 @@ export default function Navigation() {
                     <a href="#AboutSection"><li className="firstLi">Über mich | 关于我</li></a>
                 </div>
                 <div>
-                    <li className="firstLi">Skills | 技能</li>
+                    <a href="#SkillsSection"><li className="firstLi">Skills | 技能</li></a>
                 </div>
                 <div>
-                    <li className="firstLi">Projekte | 项目</li>
+                    <a href="#ProjectsSection"><li className="firstLi">Projekte | 项目</li></a>
                 </div>
                 <div>
                     <a href="#KontaktSection"><li className="firstLi">Kontakt | 联系</li></a>

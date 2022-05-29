@@ -6,6 +6,7 @@ import './GlobalStyles.css';
 import Kontakt from './Kontakt/Kontakt';
 import Navigation from './Navigation/Navigation';
 import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
 import Startseite from './Startseite/Startseite';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
     <Navigation/>
     <Startseite/>
     <About/>
+    <Skills/>
     <Projects/>
     <Kontakt/>
     <Footer/>
