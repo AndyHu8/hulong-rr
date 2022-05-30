@@ -12,7 +12,52 @@
 }
 
 .aboutTextProjects {
-    text-align:justify;
+    text-align: justify;
+}
+
+/*ALL SKILLS*/
+.alleSkillsContainer {
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+
+.alleSkillsContainer > div {
+    min-width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: 500ms;
+    text-shadow: 0 0 8px white;
+    color: transparent;
+}
+
+.alleSkillsContainer > div:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.alleSkillsContainer::-webkit-scrollbar {
+    height: 10px;
+}
+
+.alleSkillsContainer::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.alleSkillsContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
 }
 
 /*MEDIA QUERIES*/
