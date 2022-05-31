@@ -17,7 +17,7 @@
 
 /*ALL SKILLS*/
 .alleSkillsContainer {
-    margin-top: 100px;
+    margin-top: 50px;
     height: 400px;
     width: 100%;
     display: flex;
@@ -79,6 +79,20 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .alleSkillsContainer {
+        height: 300px;
+    }
+    .alleSkillsContainer > div {
+        min-width: 150px;
+        height: 200px;
+        font-size: 25px;
+    }
+    .alleSkillsContainer::-webkit-scrollbar {
+        height: 5px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .skillsContainer > .skillsContent > h2 {
         font-size: 16px;
@@ -88,5 +102,13 @@
     }
     .aboutTextProjects {
         text-align: revert;
+    }
+    .alleSkillsContainer {
+        height: 200px;
+    }
+    .alleSkillsContainer > div {
+        min-width: 80px;
+        height: 120px;
+        font-size: 16px;
     }
 }
