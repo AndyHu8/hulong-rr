@@ -37,13 +37,14 @@
     font-size: 30px;
     text-align: center;
     transition: 500ms;
-    text-shadow: 0 0 8px white;
+    text-shadow: 0 0 8px #F5CF9C;
     color: transparent;
 }
 
 .alleSkillsContainer > div:hover {
     background-color: white;
     color: black;
+    text-shadow: none;
     cursor: pointer;
     
 }
