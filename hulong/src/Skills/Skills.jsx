@@ -1,3 +1,4 @@
+import EinSKill from "./EinSkill"
 import "./Skills.css"
 
 export default function Skills() {
@@ -10,14 +11,14 @@ export default function Skills() {
                 Hier unten findest du alle Skills aufgelistet.
                 </p>
                 <div className="alleSkillsContainer">
-                    <div onClick={() => window.open("https://www.w3schools.com/html/", "_blank")}>HTML</div>
-                    <div onClick={() => window.open("https://www.w3schools.com/css/", "_blank")}>CSS</div>
-                    <div onClick={() => window.open("https://www.w3schools.com/js/", "_blank")}>JavaScript</div>
-                    <div onClick={() => window.open("https://reactjs.org/", "_blank")}>React.js</div>
-                    <div onClick={() => window.open("https://www.typescriptlang.org/", "_blank")}>TypeScript</div>
-                    <div onClick={() => window.open("https://docs.microsoft.com/de-de/dotnet/csharp/tour-of-csharp/", "_blank")}>C#</div>
-                    <div onClick={() => window.open("https://geekflare.com/de/best-css-frameworks/", "_blank")}>CSS Frameworks</div>
-                    <div onClick={() => window.open("https://www.ionos.de/digitalguide/hosting/hosting-technik/was-ist-webhosting/", "_blank")}>Hosting</div>
+                    <EinSKill headline="HTML" text="Mit HTML habe ich meine ersten Webseiten gebaut. Es ist ein Grundbaustein für die Webentwicklung."/>
+                    <EinSKill headline="CSS" text="CSS habe ich als zweites gelernt, da Webseiten ohne Design einfach nicht schön aussehen. Also auch ein wesentlicher Baustein und ein Muss."/>
+                    <EinSKill headline="JavaScript" text="JavaScript oder auch JS habe ich später gelernt, da ich Webseiten, zur Darstellung von Informationen, erstellt habe. Trotzdem ist dies auch ein wichtiger Teil der Webentwicklung."/>
+                    <EinSKill headline="React.js" text="React habe ich das erste mal in meiner beruflichen Laufbahn erlernt und seitdem alles in React &amp; mit React-Components geschrieben. Auch diese Website wurde mit React erstellt."/>
+                    <EinSKill headline="TypeScript" text="TypeScript oder auch TS habe ebenfalls in der beruflichen Linie erlernt. Dies bringt aufjedenfall viele Vorteile mit sich."/>
+                    <EinSKill headline="C#" text="C# oder auch CSharp habe ich als erstes in meiner Ausbildung, im beruflichen als auch im schulischen gelernt. Für die Arbeit essentiell."/>
+                    <EinSKill headline="CSS Frameworks" text="CSS Frameworks habe ich etwas später als CSS angeschaut. Erst im Beruf bin ich drauf gestoßen. Dies vereinfacht das Schreiben von CSS &amp; ist für den User auch gut anzusehen."/>
+                    <EinSKill headline="Hosting" text="Hosting habe ich erst gelernt, als ich meine ersten Websiten gebaut habe. Diese müssen ja irgendwo gehostet werden. Somit musste ich mir auch diesen Skill aneignen."/>
                 </div>
             </div>
         </div>
