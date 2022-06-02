@@ -137,7 +137,6 @@
     border-radius: 50%;
     transition: 500ms;
     will-change: transform;
-    cursor: pointer;
 }
 
 .gradient {
