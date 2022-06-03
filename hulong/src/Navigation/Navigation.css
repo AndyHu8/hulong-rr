@@ -23,6 +23,10 @@
     font-family: 'Zhi Mang Xing';
 }
 
+.navigationContainer > div:first-of-type > span {
+    font-family: 'Poppins', sans-serif;
+}
+
 .navigationContainer > div:first-of-type:hover {
     color: white;
 }
