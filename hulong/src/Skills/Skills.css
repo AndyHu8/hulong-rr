@@ -18,39 +18,15 @@
 /*ALL SKILLS*/
 .alleSkillsContainer {
     margin-top: 50px;
-    height: 400px;
+    height: 550px;
     width: 100%;
     display: flex;
     gap: 20px;
     overflow: auto;
 }
 
-.alleSkillsContainer > div {
-    min-width: 200px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    transition: 500ms;
-    text-shadow: 0 0 8px #F5CF9C;
-    color: transparent;
-}
-
-.alleSkillsContainer > div:hover {
-    background-color: white;
-    color: black;
-    text-shadow: none;
-    cursor: pointer;
-    
-}
-
 .alleSkillsContainer::-webkit-scrollbar {
-    height: 10px;
+    height: 8px;
 }
 
 .alleSkillsContainer::-webkit-scrollbar-track {
@@ -78,17 +54,12 @@
     .skillsContainer > .skillsContent > h2 {
         font-size: 20px;
     }
+    .alleSkillsContainer {
+    height: 400px;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    .alleSkillsContainer {
-        height: 300px;
-    }
-    .alleSkillsContainer > div {
-        min-width: 150px;
-        height: 200px;
-        font-size: 25px;
-    }
     .alleSkillsContainer::-webkit-scrollbar {
         height: 5px;
     }
@@ -103,13 +74,5 @@
     }
     .aboutTextProjects {
         text-align: revert;
-    }
-    .alleSkillsContainer {
-        height: 200px;
-    }
-    .alleSkillsContainer > div {
-        min-width: 80px;
-        height: 120px;
-        font-size: 16px;
     }
 }

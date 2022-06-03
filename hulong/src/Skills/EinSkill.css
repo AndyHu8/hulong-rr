@@ -1,0 +1,45 @@
+.einSkillContent {
+    min-width: 200px;
+    height: 450px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.einSkillContent:hover > h3 {
+    text-shadow: none;
+    color: #F5CF9C;
+}
+
+.einSkillContent:hover > p {
+    text-shadow: none;
+    color: white;
+}
+
+.einSkillContent > h3 {
+    font-size: 25px;
+    text-shadow: 0 0 8px #F5CF9C;
+    color: transparent;
+    transition: 500ms;
+}
+
+.einSkillContent > p {
+    font-size: 20px;
+    text-shadow: 0 0 8px white;
+    color: transparent;
+    transition: 500ms;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1200px) {
+    .einSkillContent {
+        height: 300px;
+    }
+    .einSkillContent > h3 {
+        font-size: 16px;
+    }
+    .einSkillContent > p {
+        font-size: 16px;
+    }
+}
