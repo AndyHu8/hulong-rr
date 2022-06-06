@@ -1,6 +1,6 @@
 .einSkillContent {
-    min-width: 200px;
-    height: 450px;
+    min-width: 300px;
+    height: 400px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 20px;
@@ -34,6 +34,7 @@
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1200px) {
     .einSkillContent {
+        min-width: 250px;
         height: 300px;
     }
     .einSkillContent > h3 {
@@ -41,5 +42,11 @@
     }
     .einSkillContent > p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .einSkillContent {
+        min-width: 200px;
     }
 }

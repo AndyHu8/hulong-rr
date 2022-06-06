@@ -9,8 +9,10 @@ export default function EinProject(props) {
             </div>
             <h2>{props.title}</h2>
             <p>{props.text}</p>
-            <div>Website</div>
-            <div>GitHub</div>
+            <div className="btnContainer">
+                <div onClick={() => window.open(`${props.websiteLink}`)} className="websiteBtn">Zur Website</div>
+                <div onClick={() => window.open(`${props.githubLink}`)} className="githubBtn">Hier Code ansehen</div>
+            </div>
         </div>
     )
 }
