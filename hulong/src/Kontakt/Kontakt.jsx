@@ -3,7 +3,7 @@ import "./Kontakt.css"
 export default function Kontakt() {
     return (
         <div className="kontaktContainer" id="KontaktSection">
-            <div className="chinStartseite">项目</div>
+            <div className="chinStartseite">联系</div>
             <h2>KONTAKT</h2>
             <p className="aboutTextProjects">Kontaktiere mich hier unter diese folgenden Social Media Kanälen. Feedback sowie Anfragen sind gerne willkommen.
             Allerdings bin ich bei manchen mehr aktiv, als bei anderen. "Instagram" ist dabei die Top 1. Also gerne da anschreiben, aber auch bei den restlichen Kanälen.
