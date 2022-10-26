@@ -1,5 +1,5 @@
 import "./Footer.css"
-import Pdf from "../Bilder/Impressum_Hulong.pdf"
+import Pdf from "../Bilder/Impressum_Xiaohu.pdf"
 
 export default function Footer() {
     return (
