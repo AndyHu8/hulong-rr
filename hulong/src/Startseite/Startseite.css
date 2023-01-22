@@ -38,13 +38,14 @@
 }
 
 .startseiteContainer > div > h2 > .JrDev {
-    color: #F5CF9C;
+    color: white;
     transition: 500ms;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .startseiteContainer > div > h2 > .JrDev:hover {
-    color: white;
+    color: gray;
 }
 
 .startseiteContainer > div > h2 {
@@ -83,17 +84,17 @@
 
 .startseiteContainer > div > ul > li:hover {
     transform: rotate(20deg) scale(1.5);
-    color: #F5CF9C;
+    color: black;
 }
 
 .mehrErfahren {
     display: inline-block;
     padding: 0% 20px;
     margin-top: 50px;
-    border-left: 2px solid #F5CF9C;
+    border-left: 2px solid white;
     min-width: 200px;
     background-color: transparent;
-    color: #F5CF9C;
+    color: white;
     cursor: pointer;
     text-align: center;
     transition: 500ms;
@@ -147,10 +148,8 @@
     border-radius: 50%;
     background-image: linear-gradient(
       black,
-      #F5CF9C,
       white,
       black,
-      #F5CF9C,
       white
     );
   }

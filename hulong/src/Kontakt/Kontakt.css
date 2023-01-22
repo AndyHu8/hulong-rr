@@ -12,7 +12,7 @@
 }
 
 .aboutTextProjects {
-    text-align:justify;
+    text-align: justify;
 }
 
 .kontaktContainer > ul {
@@ -20,7 +20,7 @@
     justify-content: space-evenly;
     list-style: none;
     margin-top: 50px;
-    color: #F5CF9C;
+    color: white;
     padding-left: 0;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .kontaktContainer > ul > li:not(:first-of-type) {
-    border-left: 1px solid #F5CF9C;
+    border-left: 1px solid white;
 }
 
 .kontaktContainer > ul > li > i {
@@ -44,7 +44,7 @@
 
 .kontaktContainer > ul > li > i:hover {
     border: 1px solid white;
-    color: white;
+    color: black;
     transform: rotate(20deg) scale(1.1);
 }
 
@@ -77,7 +77,7 @@
         justify-content: space-evenly;
         list-style: none;
         margin-top: 50px;
-        color: #F5CF9C;
+        color: white;
         padding-left: 0;
     }
     .kontaktContainer > ul > li:not(:first-of-type) {

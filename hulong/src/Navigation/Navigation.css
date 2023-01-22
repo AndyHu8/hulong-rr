@@ -16,7 +16,7 @@
 }
 
 .navigationContainer > div:first-of-type {
-    color: #F5CF9C;
+    color: white;
     font-size: 30px;
     cursor: pointer;
     transition: 500ms;
@@ -25,10 +25,11 @@
 
 .navigationContainer > div:first-of-type > span {
     font-family: 'Poppins', sans-serif;
+    transition: 0.5s ease;
 }
 
 .navigationContainer > div:first-of-type:hover {
-    color: white;
+    transform: scale(1.1);
 }
 
 .navigationContainer > ul {
@@ -116,17 +117,11 @@
 }
 
 .mobileNav > ul > div:hover {
-    color: #F5CF9C;
-    border-bottom: 2px solid #F5CF9C;
     transform: scale(1.1);
 }
 
 .mobileNav > ul > div > a {
     transition: 500ms;
-}
-
-.mobileNav > ul > div > a:hover {
-    color: #F5CF9C;
 }
 
 .IconUnderNav {

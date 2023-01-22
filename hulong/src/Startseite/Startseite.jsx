@@ -1,5 +1,5 @@
 import "./Startseite.css"
-import HulongRR from "../Bilder/hulongrr.jpg"
+import Xiaohu from "../Bilder/xiaohu_profile.jpg"
 
 export default function Startseite() {
     return (
@@ -21,7 +21,7 @@ export default function Startseite() {
             <div>
                 <div className="hulongRRDiv">
                     <div className="gradient blurry"/>
-                    <img src={HulongRR} alt="Xiaohu Profil"/>
+                    <img src={Xiaohu} alt="Xiaohu Profil"/>
                 </div>
             </div>
         </div>

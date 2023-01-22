@@ -19,7 +19,6 @@
 .logo {
     text-align: center;
     padding: 5% 0;
-    color: #F5CF9C;
 }
 
 .logo > i {
@@ -39,8 +38,8 @@
 .mehrInfos {
     display: inline-block;
     font-size: 20px;
-    border-left: 2px solid #F5CF9C;
-    color: #F5CF9C;
+    border-left: 2px solid white;
+    color: white;
     padding: 0 20px;
     transition: 500ms;
     cursor: pointer;
@@ -49,11 +48,6 @@
 .mehrInfos > i {
     transition: 500ms;
     will-change: transform;
-}
-
-.mehrInfos:hover {
-    color: white;
-    border-color: white;
 }
 
 .mehrInfos:hover > i {

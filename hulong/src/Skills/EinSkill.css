@@ -9,7 +9,7 @@
 
 .einSkillContent:hover > h3 {
     text-shadow: none;
-    color: #F5CF9C;
+    color: gray;
 }
 
 .einSkillContent:hover > p {
@@ -19,7 +19,7 @@
 
 .einSkillContent > h3 {
     font-size: 25px;
-    text-shadow: 0 0 8px #F5CF9C;
+    text-shadow: 0 0 8px black;
     color: transparent;
     transition: 500ms;
 }

@@ -39,7 +39,7 @@
 
 .downIconContainer > div:hover {
     transform: translateY(30%) rotate(0deg);
-    color: #F5CF9C;
+    color: white;
 }
 
 .hobbysContainer {

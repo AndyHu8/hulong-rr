@@ -18,7 +18,9 @@
 }
 
 .einProjectContainer > h2 {
-    color: #F5CF9C;
+    color: black;
+    background-color: white;
+    padding: 2px;
 }
 
 .btnContainer {
@@ -44,7 +46,7 @@
 .websiteBtn:hover {
     color: white;
     background-color: black;
-    border: 1px solid #F5CF9C;
+    border: 1px solid white;
 }
 
 .githubBtn {
@@ -52,7 +54,7 @@
     cursor: pointer;
     bottom: -60px;
     transition: 500ms;
-    color: #F5CF9C;
+    color: white;
 }
 
 .githubBtn:hover {

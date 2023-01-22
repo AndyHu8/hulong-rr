@@ -19,7 +19,7 @@ export default function Navigation() {
     return (
         <>
             <div className="navigationContainer">
-                <div onClick={() => window.location.reload()}><span>Xiaohu</span></div>
+                <div onClick={() => window.location.reload()}><span>XiaØhu</span></div>
                 <ul>
                     <div>
                         <a href="#StartseiteSection"><li className="firstLi">Startseite</li></a>
