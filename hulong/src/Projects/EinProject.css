@@ -52,11 +52,13 @@
     cursor: not-allowed;
     color: darkgray;
     background-color: gray;
+    border-color: darkgray;
 }
 
 .disabled:hover {
     color: darkgray !important;
     background-color: gray !important;
+    border-color: darkgray !important;
 }
 
 .websiteBtn:hover {
