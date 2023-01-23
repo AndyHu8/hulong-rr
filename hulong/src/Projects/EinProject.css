@@ -29,6 +29,11 @@
     align-items: center;
 }
 
+.btnContainer > button {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 .websiteBtn {
     position: absolute;
@@ -41,6 +46,17 @@
     font-weight: bold;
     background-color: white;
     transition: 500ms;
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: darkgray;
+    background-color: gray;
+}
+
+.disabled:hover {
+    color: darkgray !important;
+    background-color: gray !important;
 }
 
 .websiteBtn:hover {

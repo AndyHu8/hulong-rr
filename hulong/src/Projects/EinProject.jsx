@@ -10,7 +10,7 @@ export default function EinProject(props) {
             <h2>{props.title}</h2>
             <p>{props.text}</p>
             <div className="btnContainer">
-                <div onClick={() => window.open(`${props.websiteLink}`)} className="websiteBtn">Zur Website</div>
+                <button onClick={() => window.open(`${props.websiteLink}`)} className={`websiteBtn ${props.disabled ? 'disabled': ''}`} disabled={props.disabled ? true : false}>Zur Website</button>
                 <div onClick={() => window.open(`${props.githubLink}`)} className="githubBtn">Hier Code ansehen</div>
             </div>
         </div>
