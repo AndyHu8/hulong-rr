@@ -37,13 +37,13 @@
     padding: 30px;
     border-radius: 50%;
     transition: 500ms;
-    border: 1px solid black;
+    border: 1px solid #0a0a0a;
     will-change: transform;
     cursor: pointer;
 }
 
 .kontaktContainer > ul > li > i:hover {
-    border: 1px solid white;
+    border: 1px solid black;
     color: black;
     transform: rotate(20deg) scale(1.1);
 }
