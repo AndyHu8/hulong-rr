@@ -5,6 +5,7 @@ import Footer from './Footer/Footer';
 import './GlobalStyles.css';
 import Kontakt from './Kontakt/Kontakt';
 import Navigation from './Navigation/Navigation';
+import Preise from './Preise/Preise';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 import Startseite from './Startseite/Startseite';
@@ -17,6 +18,7 @@ root.render(
     <About/>
     <Skills/>
     <Projects/>
+    <Preise/>
     <Kontakt/>
     <Footer/>
   </React.StrictMode>
