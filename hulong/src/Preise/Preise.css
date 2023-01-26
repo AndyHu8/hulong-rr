@@ -1,0 +1,12 @@
+.preiseContainer {
+    background-color: black;
+    color: white;
+    padding: 8%;
+    font-size: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
