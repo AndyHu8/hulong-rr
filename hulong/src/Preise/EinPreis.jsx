@@ -5,8 +5,8 @@ export default function EinPreis(props) {
         <div className="einPreisContainer">
             <h2>{props.headline}</h2>
             <p>Einmalig</p>
-            <h2>{props.preis},-€</h2>
-            <p>{props.desc}</p>
+            <h2 className={props.blur ? "blur" : "preis"}>{props.preis},-€</h2>
+            <p className="desc">{props.desc}</p>
         </div>
     )
 }

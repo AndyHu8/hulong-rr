@@ -5,8 +5,22 @@
     font-size: 20px;
 }
 
+.preisUebersicht {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.preisUebersicht > h2 {
+    background-color: white;
+    color: black;
+    display: inline;
+    padding: 1%;
+    border-radius: 10px;
+}
+
 .flexContainer {
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 3%;
+    margin-top: 5%;
 }

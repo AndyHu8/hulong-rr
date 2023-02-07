@@ -1,12 +1,29 @@
 .einPreisContainer {
     min-width: 400px;
-    height: 450px;
+    max-width: 400px;
+    height: auto;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 20px;
     position: relative;
     transition: 500ms;
+    padding: 20px;
 }
+
+.einPreisContainer > .preis {
+    text-shadow: 0 0 20px white;
+}
+
+.einPreisContainer > .desc {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.einPreisContainer > .blur {
+    color: transparent;
+    text-shadow: 0 0 15px white;
+    user-select: none;
+}
+
 
 .einPreisContainer:hover {
     transform: scale(1.05);
