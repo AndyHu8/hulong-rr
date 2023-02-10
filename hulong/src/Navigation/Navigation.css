@@ -15,6 +15,14 @@
     z-index: 3;
 }
 
+.navigationContainer > .xhlogo_div {
+    display: flex;
+}
+
+.navigationContainer > .xhlogo_div > .xhlogo {
+    width: 80px;
+}
+
 .navigationContainer > div:first-of-type {
     color: white;
     font-size: 30px;

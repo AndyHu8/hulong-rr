@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Navigation.css"
+import Logo from "../Bilder/xh_logo.jpg"
 
 export default function Navigation() {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -19,7 +20,9 @@ export default function Navigation() {
     return (
         <>
             <div className="navigationContainer">
-                <div onClick={() => window.location.reload()}><span>XiaØhu</span></div>
+                <div className="xhlogo_div" onClick={() => window.location.reload()}>
+                    <img className="xhlogo" src={Logo} alt="XH 187" />
+                </div>
                 <ul>
                     <div>
                         <a href="#StartseiteSection"><li className="firstLi">Startseite</li></a>
