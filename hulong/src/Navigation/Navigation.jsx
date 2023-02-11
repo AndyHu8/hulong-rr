@@ -55,22 +55,22 @@ export default function Navigation() {
             <div className="mobileNav">
                 <ul>
                     <div>
-                        <a href="#StartseiteSection"><li className="firstLi">Startseite | 主页</li></a>
+                        <a href="#StartseiteSection"><li className="firstLi">Startseite</li></a>
                     </div>
                     <div>
-                        <a href="#AboutSection"><li className="firstLi">Über mich | 关于我</li></a>
+                        <a href="#AboutSection"><li className="firstLi">Über mich</li></a>
                     </div>
                     <div>
-                        <a href="#SkillsSection"><li className="firstLi">Skills | 技能</li></a>
+                        <a href="#SkillsSection"><li className="firstLi">Skills</li></a>
                     </div>
                     <div>
-                        <a href="#ProjectsSection"><li className="firstLi">Projekte | 项目</li></a>
+                        <a href="#ProjectsSection"><li className="firstLi">Projekte</li></a>
                     </div>
                     <div>
-                        <a href="#PreiseSection"><li className="firstLi">Preise | 价格</li></a>
+                        <a href="#PreiseSection"><li className="firstLi">Preise</li></a>
                     </div>
                     <div>
-                        <a href="#KontaktSection"><li className="firstLi">Kontakt | 联系</li></a>
+                        <a href="#KontaktSection"><li className="firstLi">Kontakt</li></a>
                     </div>
                 </ul>
             </div>
