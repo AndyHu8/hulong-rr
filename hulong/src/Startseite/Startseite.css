@@ -37,17 +37,6 @@
     font-family: 'Zhi Mang Xing';
 }
 
-.startseiteContainer > div > h2 > .JrDev {
-    color: white;
-    transition: 500ms;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.startseiteContainer > div > h2 > .JrDev:hover {
-    color: gray;
-}
-
 .startseiteContainer > div > h2 {
     margin: 0;
 }

@@ -151,6 +151,9 @@
     .navigationContainer > ul {
         display: none;
     }
+    .navigationContainer > .xhlogo_div > .xhlogo {
+        width: 50px;
+    }
 }
 
 @media screen and (max-width: 600px) {
