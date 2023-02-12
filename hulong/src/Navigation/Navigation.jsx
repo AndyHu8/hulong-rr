@@ -7,13 +7,16 @@ export default function Navigation() {
 
     function showNav() {
         const MobileUl = document.querySelector(".mobileNav");
+        const burgerIcon = document.querySelector(".burger");
         if (!isNavOpen || "") {
             MobileUl.style.display = "block";
             setIsNavOpen(true);
+            burgerIcon.classList.add("logoRotate");
         }
         else {
             MobileUl.style.display = "none";
             setIsNavOpen(false);
+            burgerIcon.classList.remove("logoRotate");
         }
     }
 
