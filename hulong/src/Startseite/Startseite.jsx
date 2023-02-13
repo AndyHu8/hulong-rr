@@ -10,10 +10,10 @@ export default function Startseite() {
                 <h2>Andy "Xiaohu" Hu</h2>
                 <p>Seit 2018 gehe ich diese Tätigkeit privat, sowie 2019 beruflich an: Coden. Jeder Anfang ist schwer, aber es lohnt sich dran zu bleiben und die Erfahrungen mitzunehmen. Seit dieser Zeit, bin ich von Tag eins mit Leidenschaft dabei und werde nie ausgelernt haben. #CodingIsFuture</p>
                 <ul>
-                    <li onClick={() => window.open("https://www.instagram.com/xiaohu_chn")}><i class="fa fa-brands fa-instagram"></i></li>
-                    <li onClick={() => window.open("https://github.com/AndyHu8")}><i class="fa fa-brands fa-github"></i></li>
-                    <li onClick={() => window.open("https://www.youtube.com/channel/UCm_LK9R9h0h_Kw6MWG3H7RQ")}><i class="fa fa-brands fa-youtube"></i></li>
-                    <li onClick={() => window.open("https://twitter.com/xiaohu_chn")}><i class="fa fa-brands fa-twitter"></i></li>
+                    <li onClick={() => window.open("https://www.instagram.com/xiaohu_chn")}><i className="fa fa-brands fa-instagram"></i></li>
+                    <li onClick={() => window.open("https://github.com/AndyHu8")}><i className="fa fa-brands fa-github"></i></li>
+                    <li onClick={() => window.open("https://www.youtube.com/channel/UCm_LK9R9h0h_Kw6MWG3H7RQ")}><i className="fa fa-brands fa-youtube"></i></li>
+                    <li onClick={() => window.open("https://twitter.com/xiaohu_chn")}><i className="fa fa-brands fa-twitter"></i></li>
                 </ul>
                 <a href="#AboutSection"><div className="mehrErfahren">Mehr erfahren <i className="fa fa-solid fa-arrow-right"></i></div></a>
                 

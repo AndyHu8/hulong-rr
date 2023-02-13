@@ -8,13 +8,19 @@ export default function Navigation() {
     function showNav() {
         const MobileUl = document.querySelector(".mobileNav");
         const burgerIcon = document.querySelector(".burger");
+
+        //Öffne es
         if (!isNavOpen || "") {
-            MobileUl.style.display = "block";
+            MobileUl.classList.add("panelSlideIn");
+            MobileUl.classList.remove("panelSlideRight");
             setIsNavOpen(true);
             burgerIcon.classList.add("logoRotate");
         }
+
+        //Schließe es
         else {
-            MobileUl.style.display = "none";
+            MobileUl.classList.remove("panelSlideIn");
+            MobileUl.classList.add("panelSlideRight");
             setIsNavOpen(false);
             burgerIcon.classList.remove("logoRotate");
         }
@@ -58,22 +64,22 @@ export default function Navigation() {
             <div className="mobileNav">
                 <ul>
                     <div>
-                        <a href="#StartseiteSection"><li className="firstLi">Startseite</li></a>
+                        <a href="#StartseiteSection" onClick={showNav}><li className="firstLi">Startseite</li></a>
                     </div>
                     <div>
-                        <a href="#AboutSection"><li className="firstLi">Über mich</li></a>
+                        <a href="#AboutSection" onClick={showNav}><li className="firstLi">Über mich</li></a>
                     </div>
                     <div>
-                        <a href="#SkillsSection"><li className="firstLi">Skills</li></a>
+                        <a href="#SkillsSection" onClick={showNav}><li className="firstLi">Skills</li></a>
                     </div>
                     <div>
-                        <a href="#ProjectsSection"><li className="firstLi">Projekte</li></a>
+                        <a href="#ProjectsSection" onClick={showNav}><li className="firstLi">Projekte</li></a>
                     </div>
                     <div>
-                        <a href="#PreiseSection"><li className="firstLi">Preise</li></a>
+                        <a href="#PreiseSection" onClick={showNav}><li className="firstLi">Preise</li></a>
                     </div>
                     <div>
-                        <a href="#KontaktSection"><li className="firstLi">Kontakt</li></a>
+                        <a href="#KontaktSection" onClick={showNav}><li className="firstLi">Kontakt</li></a>
                     </div>
                 </ul>
             </div>

@@ -12,6 +12,7 @@
     animation: slideInFromBottom 1200ms ease-in-out;
     animation-fill-mode: forwards;
     width: 100%;
+    padding-top: 5%;
 }
 
 .startseiteContainer > div {
