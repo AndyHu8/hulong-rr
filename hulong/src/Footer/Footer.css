@@ -19,7 +19,7 @@
 .impressumFooterText > span {
     transition: 500ms;
     cursor: pointer;
-    color: grey;
+    color: red;
     
 }
 

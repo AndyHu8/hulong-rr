@@ -12,7 +12,7 @@
     animation: slideInFromBottom 1200ms ease-in-out;
     animation-fill-mode: forwards;
     width: 100%;
-    padding-top: 5%;
+    padding-top: 50px;
 }
 
 .startseiteContainer > div {
@@ -51,6 +51,7 @@
     padding: 2% 0%;
     font-family: 'Zhi Mang Xing';
     font-size: 50px;
+    color: red;
 }
 
 .hiIchBin {
@@ -74,7 +75,7 @@
 
 .startseiteContainer > div > ul > li:hover {
     transform: rotate(20deg) scale(1.5);
-    color: black;
+    color: red;
 }
 
 .mehrErfahren {
@@ -90,17 +91,19 @@
     transition: 500ms;
 }
 
-.mehrErfahren:hover > i {
+.mehrErfahren > i {
+    transform: translateX(0%);
     transition: 500ms;
-    will-change: transform;
 }
 
 .mehrErfahren:hover {
-    border-left: 2px solid white;
-    color: white;
+    border-color: red;
 }
 
 .mehrErfahren:hover > i {
+    transition: 500ms;
+    will-change: transform;
+    color: red;
     transform: translateX(30%);
 }
 

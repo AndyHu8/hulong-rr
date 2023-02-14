@@ -43,7 +43,7 @@
 }
 
 .kontaktContainer > ul > li > i:hover {
-    color: black;
+    color: red;
     transform: rotate(20deg) scale(1.1);
 }
 
