@@ -12,7 +12,7 @@
 }
 
 .einHobbyContainer:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     z-index: 2;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .einHobbyContainerMittel:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .einHobbyContainerMittel > h2 {
@@ -109,7 +109,7 @@
         transform: scale(1.0);
     }
     .einHobbyContainerMittel:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
@@ -122,6 +122,12 @@
     }
     .einHobbyContainerMittel > h2 {
         font-size: 20px;
+    }
+    .einHobbyContainer:hover {
+        transform: scale(1);
+    }
+    .einHobbyContainerMittel:hover {
+        transform: scale(1);
     }
 }
 
